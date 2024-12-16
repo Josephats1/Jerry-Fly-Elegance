@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerry Fly Elegance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo"><a href="#">Jerry Fly</a></div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#about">Beauty</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section (Video Background) -->
+  <section class="hero">
+    <video autoplay muted loop id="background-video">
+      <source src="Hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>Elegance Redefined</h1>
+      <button class="cta">Explore Elegance</button>
+    </div>
+  </section>
+
+  <!-- Flip Card Section -->
+  <section class="flip-card-container" id="shop">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front product1">
+          <!-- Image will be set via CSS -->
+        </div>
+        <div class="flip-card-back">
+          <h2>Elegant Handbag</h2>
+          <button>Shop Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front product2">
+          <!-- Image will be set via CSS -->
+        </div>
+        <div class="flip-card-back">
+          <h2>Luxury Watch</h2>
+          <button>Shop Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more flip cards here as needed -->
+  </section>
+
+  <script src="scripts.js"></script> <!-- External JS file for mobile menu functionality -->
+</body>
+</html>
+
+
+
